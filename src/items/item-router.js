@@ -1,0 +1,20 @@
+const express = require('express')
+const app = require('../app')
+const ItemsService = require('./item-service')
+
+const itemsRouter = express.Router()
+
+
+
+itemsRouter
+  .route('/')
+  .get((req, res, next) => {
+    const knexInstance = req.app.get('db');
+    ItemsService.getAllItems(knexInstance)
+      .then(items => {
+        res.json(items)
+      })
+      .catch(next)
+  })
+
+module.exports = itemsRouter
