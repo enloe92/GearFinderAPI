@@ -76,13 +76,13 @@ const warriorServices = {
       db
       .from('wow_gear')
       .select('*')
-      .where('item_name', 'ILIKE', 'Nathrian Crusaders Bastard Sword')
+      .where('item_name', 'ILIKE', 'Zenith Anima Spherule')
 
     const weapon2 =
       db
       .from('wow_gear')
       .select('*')
-      .where('item_name', 'ILIKE', 'Nathrian Crusaders Bastard Sword')
+      .where('item_name', 'ILIKE', 'Zenith Anima Spherule')
 
     gear.helm = helm
     gear.neck = neck

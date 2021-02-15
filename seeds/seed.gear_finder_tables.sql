@@ -375,9 +375,13 @@ VALUES
   ('Burning Beacon of Hope', 'Weapon', 'Off-Hand', 'One-Hand', 'Castle Nathria', 'Vendor', 'Intellect', 'Haste', 'Mastery', '175254'),
   ('Thenioss Beacon of Foresight', 'Weapon', 'Off-Hand', 'One-Hand', 'Castle Nathria', 'Vendor', 'Intellect', 'Mastery', 'Versatility', '177870'),
   ('Elysian Sentinels Aegis', 'Weapon', 'Shield', 'One-Hand', 'Castle Nathria', 'Vendor', 'Flex', 'Haste', 'Critical Strike', '174310'),
-  ('Chyruss Crest of Hope', 'Weapon', 'Shield', 'One-Hand', 'Castle Nathria', 'Vendor', 'Flex', 'Versatility', 'Mastery', '174315')
-
-
+  ('Chyruss Crest of Hope', 'Weapon', 'Shield', 'One-Hand', 'Castle Nathria', 'Vendor', 'Flex', 'Versatility', 'Mastery', '174315'),
+  ('Mystic Anima Spherule', 'Weapon', 'All', 'All', 'Castle Nathria', 'Sire Denathrius', 'Flex', 'Flex', 'Flex', '183897'),
+  ('Apogee Anima Bead', 'Weapon', 'All', 'All', 'Castle Nathria', 'Stone Legion Gernerals', 'Flex', 'Flex', 'Flex', '183895'),
+  ('Venerated Anima Spherule', 'Weapon', 'All', 'All', 'Castle Nathria', 'Sire Denathrius', 'Flex', 'Flex', 'Flex', '183898'),
+  ('Thaumaturgic Anima Bead', 'Weapon', 'All', 'All', 'Castle Nathria', 'Stone Legion Gernerals', 'Flex', 'Flex', 'Flex', '183894'),
+  ('Zenith Anima Spherule', 'Weapon', 'All', 'All', 'Castle Nathria', 'Sire Denathrius', 'Flex', 'Flex', 'Flex', '183899'),
+  ('Abominable Anima Spherule', 'Weapon', 'All', 'All', 'Castle Nathria', 'Sire Denathrius', 'Flex', 'Flex', 'Flex', '183896')
 
 
 
