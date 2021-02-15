@@ -1,6 +1,7 @@
 const express = require('express')
 const app = require('../app')
 const ItemsService = require('./item-service')
+const warriorServices = require('./warrior/warrior-services')
 
 const itemsRouter = express.Router()
 
@@ -21,7 +22,7 @@ itemsRouter
   .route('/warrior/fury')
   .get((req, res, next) => {
     const knexInstance = req.app.get('db');
-    ItemsService.getFuryWarriorArmor(knexInstance)
+    warriorServices.getFuryWarriorArmor(knexInstance)
       .then(items => {
         res.json(items)
       })
