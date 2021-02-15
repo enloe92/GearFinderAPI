@@ -36,13 +36,6 @@ const ItemsService = {
       Name: item.item_name,
       id: item.item_id,      
     }
-  },
-  getFuryWarriorArmor(db){
-    return db
-      .from('wow_gear')
-      .select('*')
-      .where('item_type', 'ILIKE', 'Plate', 'All')
-      .where('primary_stat', 'ILIKE', 'Haste')  
   }
 }
 

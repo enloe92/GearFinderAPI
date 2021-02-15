@@ -22,10 +22,14 @@ itemsRouter
   .route('/warrior/fury')
   .get((req, res, next) => {
     const knexInstance = req.app.get('db');
-    warriorServices.getFuryWarriorArmor(knexInstance)
+    warriorServices.getFuryWarriorHelm(knexInstance)
       .then(items => {
         res.json(items)
       })
       .catch(next)
+      warriorServices.getFuryWarriorNeck(knexInstance)
+      .then(items => {
+        res.json(items)
+      })
   })
 module.exports = itemsRouter
