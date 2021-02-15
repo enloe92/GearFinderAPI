@@ -84,7 +84,21 @@ const warriorServices = {
       .select('*')
       .where('item_name', 'ILIKE', 'Nathrian Crusaders Bastard Sword')
 
-    gear.push(helm, neck, shoulder, cloak, chest, wrist, gloves, belt, legs, boots, ring1, ring2, weapon1, weapon2)
+    gear.push(helm)
+    gear.push(neck)
+    gear.push(shoulder)
+    gear.push(cloak)
+    gear.push(chest)
+    gear.push(wrists)
+    gear.push(gloves)
+    gear.push(belt)
+    gear.push(legs)
+    gear.push(boots)
+    gear.push(ring1)
+    gear.push(ring2)
+    gear.push(weapon1)
+    gear.push(weapon2)
+    
     return gear;
   }
 }
