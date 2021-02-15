@@ -1,6 +1,6 @@
 const warriorServices = {
   getFuryWarriorArmor(db) {
-    const gear = [];
+    const gear = {};
     const helm =
       db
       .from('wow_gear')
@@ -98,7 +98,7 @@ const warriorServices = {
     gear.push(ring2)
     gear.push(weapon1)
     gear.push(weapon2)
-    
+
     return gear;
   }
 }
