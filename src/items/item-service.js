@@ -42,7 +42,8 @@ const ItemsService = {
       .from('wow_gear')
       .select('*')
       .where('item_type', 'ILIKE', 'Plate')
-      .where('primary_stat', 'ILIKE', 'Haste')        
+      .where('primary_stat', 'ILIKE', 'Haste')
+      .where('secondary_stat', 'ILIKE', 'Mastery')   
   }
 }
 
