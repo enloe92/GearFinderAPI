@@ -99,6 +99,7 @@ const warriorServices = {
     gear.weapon1 = weapon1
     gear.weapon2 = weapon2
 
+    console.log(gear)
     return gear;
   }
 }
