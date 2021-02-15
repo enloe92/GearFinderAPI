@@ -21,7 +21,7 @@ itemsRouter
   .route('/warrior/fury')
   .get((req, res, next) => {
     const knexInstance = req.app.get('db');
-    ItemsService.getFuryWarrior(knexInstance)
+    ItemsService.getFuryWarriorArmor(knexInstance)
       .then(items => {
         res.json(items)
       })
