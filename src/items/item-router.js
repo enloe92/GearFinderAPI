@@ -26,10 +26,11 @@ itemsRouter
       .then(items => {
         res.json(items)
       })
-      .catch(next)
+      
       warriorServices.getFuryWarriorNeck(knexInstance)
       .then(items => {
         res.json(items)
       })
+      .catch(next)
   })
 module.exports = itemsRouter
