@@ -1,13 +1,13 @@
 const warriorServices = {
   getFuryWarriorArmor(db){
     const gear = [];
-    gear.push(
+    const helm = 
       db
         .from('wow_gear')
         .select('*')
         .where('item_name', 'ILIKE', 'Diadem of Imperious Desire')
-    )
-    return gear; 
+    
+    return helm; 
   }
 }
 
