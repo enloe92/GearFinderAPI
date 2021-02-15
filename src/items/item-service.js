@@ -41,7 +41,7 @@ const ItemsService = {
     return db
       .from('wow_gear')
       .select('*')
-      .where('item_type', 'ILIKE', 'Plate')
+      .where('item_type', 'ILIKE', 'Plate AND All')
       .where('primary_stat', 'ILIKE', 'Haste')  
   }
 }
