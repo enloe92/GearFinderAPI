@@ -16,5 +16,15 @@ itemsRouter
       })
       .catch(next)
   })
-
+  
+  itemsRouter
+  .route('/warrior/fury')
+  .get((req, res, next) => {
+    const knexInstance = req.app.get('db');
+    ItemsService.getFuryWarrior(knexInstance)
+      .then(items => {
+        res.json(items)
+      })
+      .catch(next)
+  })
 module.exports = itemsRouter
