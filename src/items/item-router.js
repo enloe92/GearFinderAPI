@@ -28,6 +28,9 @@ itemsRouter
       })
       .catch(next)
   })
+  
+  itemsRouter
+  .route('/warrior/fury')
   .get((req, res, next) => {
     const knexInstance = req.app.get('db');
     warriorServices.getFuryWarriorNeck(knexInstance)
