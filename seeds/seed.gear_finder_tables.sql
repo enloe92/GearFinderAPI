@@ -256,7 +256,7 @@ VALUES
   ('Slippers of the Forgotten Heretic', 'Armor', 'Cloth', 'Feet', 'Castle Nathria', 'Shriekwing', 'Flex', 'Critical Strike', 'Mastery', '182979'),
   ('Sparkling Glass Slippers', 'Armor', 'Cloth', 'Feet', 'Castle Nathria', 'The Council of Blood', 'Flex', 'Versatility', 'Critical Strike', '183023'),
   ('Stoneguard Attendants Boots', 'Armor', 'Plate', 'Feet', 'Castle Nathria', 'The Council of Blood', 'Flex', 'Haste', 'Critical Strike', '182983'),
-  ('Errants Crusaders Greaves', 'Armor', 'Plate', 'Feet', 'Castle Nathria', 'Shriekwing', 'Flex', 'Haste', 'Mastery', '183027'),
+  ('Errant Crusaders Greaves', 'Armor', 'Plate', 'Feet', 'Castle Nathria', 'Shriekwing', 'Flex', 'Haste', 'Mastery', '183027'),
   ('Most Regal Signet of Sire Denathrius', 'Armor', 'All', 'Ring', 'Castle Nathria', 'Sire Denathrius', 'Flex', 'Haste', 'Mastery', '183036'),
   ('Ritualists Treasured Ring', 'Armor', 'All', 'Ring', 'Castle Nathria', 'Lady Inerva Darkvein', 'Flex', 'Haste', 'Critical Strike', '183037'),
   ('Hyperlight Band', 'Armor', 'All', 'Ring', 'Castle Nathria', 'Artificer Xymox', 'Flex', 'Versatility', 'Mastery', '183038'),
@@ -389,5 +389,19 @@ VALUES
   ('Charm of Eternal Winter', 'Armor', 'All', 'Neck', 'Castle Nathria', 'Huntsman Altimor', 'Flex', 'Mastery', 'Haste', '183040'),
   ('Epaulettes of Overwhelming Force', 'Armor', 'Plate', 'Shoulder', 'Castle Nathria', 'Hungering Destroyer', 'Flex', 'Critical Strike', 'Haste', '182994'),
   ('Crest of the Legionnaire General', 'Armor', 'All', 'Back', 'Castle Nathria', 'Stone Legion Generals', 'Flex', 'Haste', 'Versatility', '183032'),
+  ('Breastplate of Cautious Calculation', 'Armor', 'Plate', 'Chest', 'Castle Nathria', 'Artificer Xymox', 'Flex', 'Mastery', 'Critical Strike', '182987'),
+  ('Hellhound Cuffs', 'Armor', 'Plate', 'Wrist', 'Castle Nathria', 'Huntsman Altimor', 'Flex', 'Haste', 'Critical Strike', '183018'),
+  ('Colossal Plate Gauntlets', 'Armor', 'Plate', 'Hands', 'Castle Nathria', 'Sludgefist', 'Flex', 'Haste', 'Versatility', '182984'),
+  ('Binding of Warped Desires', 'Armor', 'Plate', 'Waist', 'Castle Nathria', 'Lady Inerva Darkvein', 'Flex', 'Haste', 'Critical Strike', '183015'),
+  ('Endlessly Gluttonous Greaves', 'Armor', 'Plate', 'Legs', 'Castle Nathria', 'Hungering Destroyer', 'Flex', 'Mastery', 'Critical Strike', '182992'),
+  ('Errant Crusaders Greaves', 'Armor', 'Plate', 'Feet', 'Castle Nathria', 'Shriekwing', 'Flex', 'Haste', 'Mastery', '183027'),
+  ('Most Regal Signet of Sire Denathrius', 'Armor', 'All', 'Ring', 'Castle Nathria', 'Sire Denathrius', 'Flex', 'Haste', 'Mastery', '183036'),
+  ('Ritualists Treasured Ring', 'Armor', 'All', 'Ring', 'Castle Nathria', 'Lady Inerva Darkvein', 'Flex', 'Haste', 'Critical Strike', '183037'),
+  ('Zenith Anima Spherule', 'Weapon', 'All', 'All', 'Castle Nathria', 'Sire Denathrius', 'Flex', 'Flex', 'Flex', '183899'),
+  ('Zenith Anima Spherule', 'Weapon', 'All', 'All', 'Castle Nathria', 'Sire Denathrius', 'Flex', 'Flex', 'Flex', '183899');
+
+  
+
+
 
 COMMIT;
