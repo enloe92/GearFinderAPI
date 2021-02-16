@@ -46,7 +46,7 @@ const ItemsService = {
     return db
       .from('arms_warrior')
       .select('*')
-  },
+  }
 }
 
 module.exports = ItemsService
