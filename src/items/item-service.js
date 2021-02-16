@@ -46,6 +46,11 @@ const ItemsService = {
     return db
       .from('arms_warrior')
       .select('*')
+  },
+  getProtectionWarrior(db){
+    return db
+      .from('protection_warrior')
+      .select('*')
   }
 }
 

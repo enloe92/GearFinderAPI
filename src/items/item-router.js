@@ -29,16 +29,27 @@ itemsRouter
       .catch(next)
   })
 
-  // itemsRouter
-  // .route('/warrior/arms')
-  // .get((req, res, next) => {
-  //   const knexInstance = req.app.get('db');
-  //   ItemsService.getarmsWarrior(knexInstance)
-  //     .then(items => {
-  //       res.json(items)
-  //     })
-  //     .catch(next)
-  // })
+  itemsRouter
+  .route('/warrior/arms')
+  .get((req, res, next) => {
+    const knexInstance = req.app.get('db');
+    ItemsService.getArmsWarrior(knexInstance)
+      .then(items => {
+        res.json(items)
+      })
+      .catch(next)
+  })
+
+  itemsRouter
+  .route('/warrior/protection')
+  .get((req, res, next) => {
+    const knexInstance = req.app.get('db');
+    ItemsService.getProtectionWarrior(knexInstance)
+      .then(items => {
+        res.json(items)
+      })
+      .catch(next)
+  })
 
 
 
