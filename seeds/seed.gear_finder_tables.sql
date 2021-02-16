@@ -400,7 +400,39 @@ VALUES
   ('Zenith Anima Spherule', 'Weapon', 'All', 'All', 'Castle Nathria', 'Sire Denathrius', 'Flex', 'Flex', 'Flex', '183899'),
   ('Zenith Anima Spherule', 'Weapon', 'All', 'All', 'Castle Nathria', 'Sire Denathrius', 'Flex', 'Flex', 'Flex', '183899');
 
-  
+INSERT INTO arms_warrior (item_name, item_category, item_type, item_class, item_location, item_source, main_stat, primary_stat, secondary_stat, item_id)
+VALUES
+  ('Diadem of Imperious Desire', 'Armor', 'Plate', 'Head', 'Castle Nathria', 'Sire Denathrius', 'Flex', 'Mastery', 'Haste', '182997'),
+  ('Nobles Birthstone Pendant', 'Armor', 'All', 'Back', 'Castle Nathria', 'The Council of Blood', 'Flex', 'Mastery', 'Critical Strike', '183039'),
+  ('Epaulettes of Overwhelming Force', 'Armor', 'Plate', 'Shoulder', 'Castle Nathria', 'Hungering Destroyer', 'Flex', 'Critical Strike', 'Haste', '182994'),
+  ('Crest of the Legionnaire General', 'Armor', 'All', 'Back', 'Castle Nathria', 'Stone Legion Generals', 'Flex', 'Haste', 'Versatility', '183032'),
+  ('Breastplate of Cautious Calculation', 'Armor', 'Plate', 'Chest', 'Castle Nathria', 'Artificer Xymox', 'Flex', 'Mastery', 'Critical Strike', '182987'),
+  ('Hellhound Cuffs', 'Armor', 'Plate', 'Wrist', 'Castle Nathria', 'Huntsman Altimor', 'Flex', 'Haste', 'Critical Strike', '183018'),
+  ('Colossal Plate Gauntlets', 'Armor', 'Plate', 'Hands', 'Castle Nathria', 'Sludgefist', 'Flex', 'Haste', 'Versatility', '182984'),
+  ('Binding of Warped Desires', 'Armor', 'Plate', 'Waist', 'Castle Nathria', 'Lady Inerva Darkvein', 'Flex', 'Haste', 'Critical Strike', '183015'),
+  ('Ceremonial Parade Legguards', 'Armor', 'Plate', 'Legs', 'Castle Nathria', 'Stone Legion Generals', 'Flex', 'Versatility', 'Mastery', '183002'),
+  ('Errant Crusaders Greaves', 'Armor', 'Plate', 'Feet', 'Castle Nathria', 'Shriekwing', 'Flex', 'Haste', 'Mastery', '183027'),
+  ('Most Regal Signet of Sire Denathrius', 'Armor', 'All', 'Ring', 'Castle Nathria', 'Sire Denathrius', 'Flex', 'Haste', 'Mastery', '183036'),
+  ('Ritualists Treasured Ring', 'Armor', 'All', 'Ring', 'Castle Nathria', 'Lady Inerva Darkvein', 'Flex', 'Haste', 'Critical Strike', '183037'),
+  ('Zenith Anima Spherule', 'Weapon', 'All', 'All', 'Castle Nathria', 'Sire Denathrius', 'Flex', 'Flex', 'Flex', '183899');
+
+INSERT INTO protection_warrior (item_name, item_category, item_type, item_class, item_location, item_source, main_stat, primary_stat, secondary_stat, item_id)
+VALUES
+  ('Diadem of Imperious Desire', 'Armor', 'Plate', 'Head', 'Castle Nathria', 'Sire Denathrius', 'Flex', 'Mastery', 'Haste', '182997'),
+  ('Charm of Eternal Winter', 'Armor', 'All', 'Neck', 'Castle Nathria', 'Huntsman Altimor', 'Flex', 'Mastery', 'Haste', '183040'),
+  ('Epaulettes of Overwhelming Force', 'Armor', 'Plate', 'Shoulder', 'Castle Nathria', 'Hungering Destroyer', 'Flex', 'Critical Strike', 'Haste', '182994'),
+  ('Crest of the Legionnaire General', 'Armor', 'All', 'Back', 'Castle Nathria', 'Stone Legion Generals', 'Flex', 'Haste', 'Versatility', '183032'),
+  ('Breastplate of Cautious Calculation', 'Armor', 'Plate', 'Chest', 'Castle Nathria', 'Artificer Xymox', 'Flex', 'Mastery', 'Critical Strike', '182987'),
+  ('Hellhound Cuffs', 'Armor', 'Plate', 'Wrist', 'Castle Nathria', 'Huntsman Altimor', 'Flex', 'Haste', 'Critical Strike', '183018'),
+  ('Colossal Plate Gauntlets', 'Armor', 'Plate', 'Hands', 'Castle Nathria', 'Sludgefist', 'Flex', 'Haste', 'Versatility', '182984'),
+  ('Binding of Warped Desires', 'Armor', 'Plate', 'Waist', 'Castle Nathria', 'Lady Inerva Darkvein', 'Flex', 'Haste', 'Critical Strike', '183015'),
+  ('Ceremonial Parade Legguards', 'Armor', 'Plate', 'Legs', 'Castle Nathria', 'Stone Legion Generals', 'Flex', 'Versatility', 'Mastery', '183002'),
+  ('Stoneguard Attendants Boots', 'Armor', 'Plate', 'Feet', 'Castle Nathria', 'The Council of Blood', 'Flex', 'Haste', 'Critical Strike', '182983'),
+  ('Most Regal Signet of Sire Denathrius', 'Armor', 'All', 'Ring', 'Castle Nathria', 'Sire Denathrius', 'Flex', 'Haste', 'Mastery', '183036'),
+  ('Ritualists Treasured Ring', 'Armor', 'All', 'Ring', 'Castle Nathria', 'Lady Inerva Darkvein', 'Flex', 'Haste', 'Critical Strike', '183037'),
+  ('Zenith Anima Spherule', 'Weapon', 'All', 'All', 'Castle Nathria', 'Sire Denathrius', 'Flex', 'Flex', 'Flex', '183899'),
+  ('Apogee Anima Bead', 'Weapon', 'All', 'All', 'Castle Nathria', 'Stone Legion Gernerals', 'Flex', 'Flex', 'Flex', '183895');
+
 
 
 

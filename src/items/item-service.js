@@ -42,6 +42,11 @@ const ItemsService = {
       .from('fury_warrior')
       .select('*')
   },
+  getArmsWarrior(db){
+    return db
+      .from('arms_warrior')
+      .select('*')
+  },
 }
 
 module.exports = ItemsService
