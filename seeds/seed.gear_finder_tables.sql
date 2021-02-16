@@ -214,7 +214,7 @@ VALUES
   ('Epaulettes of Overwhelming Force', 'Armor', 'Plate', 'Shoulder', 'Castle Nathria', 'Hungering Destroyer', 'Flex', 'Critical Strike', 'Haste', '182994'),
   ('Shawl of the Penitent', 'Armor', 'Cloth', 'Shoulder', 'Castle Nathria', 'Sire Denathrius', 'Flex', 'Haste', 'Critical Strike', '183020'),
   ('Wicked Flankers Gorget', 'Armor', 'Leather', 'Shoulder', 'Castle Nathria', 'Stone Legion Generals', 'Flex', 'Versatility', 'Critical Strike', '183029'),
-  ('Crest of the Legionaire General', 'Armor', 'All', 'Back', 'Castle Nathria', 'Stone Legion Generals', 'Flex', 'Haste', 'Versatility', '183032'),
+  ('Crest of the Legionnaire General', 'Armor', 'All', 'Back', 'Castle Nathria', 'Stone Legion Generals', 'Flex', 'Haste', 'Versatility', '183032'),
   ('Cowled Batwing Cloak', 'Armor', 'All', 'Back', 'Castle Nathria', 'Shriekwing', 'Flex', 'Versatility', 'Mastery', '183034'),
   ('Mantle of Manifest Sins', 'Armor', 'All', 'Back', 'Castle Nathria', 'Sun Kings Salvation', 'Flex', 'Critical Strike', 'Mastery', '183033'),
   ('Rampaging Giants Chestplate', 'Armor', 'Plate', 'Chest', 'Castle Nathria', 'Sludgefist', 'Flex', 'Versatility', 'Critical Strike', '182999'),
@@ -381,9 +381,13 @@ VALUES
   ('Venerated Anima Spherule', 'Weapon', 'All', 'All', 'Castle Nathria', 'Sire Denathrius', 'Flex', 'Flex', 'Flex', '183898'),
   ('Thaumaturgic Anima Bead', 'Weapon', 'All', 'All', 'Castle Nathria', 'Stone Legion Gernerals', 'Flex', 'Flex', 'Flex', '183894'),
   ('Zenith Anima Spherule', 'Weapon', 'All', 'All', 'Castle Nathria', 'Sire Denathrius', 'Flex', 'Flex', 'Flex', '183899'),
-  ('Abominable Anima Spherule', 'Weapon', 'All', 'All', 'Castle Nathria', 'Sire Denathrius', 'Flex', 'Flex', 'Flex', '183896')
+  ('Abominable Anima Spherule', 'Weapon', 'All', 'All', 'Castle Nathria', 'Sire Denathrius', 'Flex', 'Flex', 'Flex', '183896');
 
-
-
+INSERT INTO fury_warrior (item_name, item_category, item_type, item_class, item_location, item_source, main_stat, primary_stat, secondary_stat, item_id)
+VALUES
+  ('Diadem of Imperious Desire', 'Armor', 'Plate', 'Head', 'Castle Nathria', 'Sire Denathrius', 'Flex', 'Mastery', 'Haste', '182997'),
+  ('Charm of Eternal Winter', 'Armor', 'All', 'Neck', 'Castle Nathria', 'Huntsman Altimor', 'Flex', 'Mastery', 'Haste', '183040'),
+  ('Epaulettes of Overwhelming Force', 'Armor', 'Plate', 'Shoulder', 'Castle Nathria', 'Hungering Destroyer', 'Flex', 'Critical Strike', 'Haste', '182994'),
+  ('Crest of the Legionnaire General', 'Armor', 'All', 'Back', 'Castle Nathria', 'Stone Legion Generals', 'Flex', 'Haste', 'Versatility', '183032'),
 
 COMMIT;
