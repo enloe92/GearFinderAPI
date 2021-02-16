@@ -1,7 +1,7 @@
 const express = require('express')
 const app = require('../app')
 const ItemsService = require('./item-service')
-const warriorServices = require('./warrior/warrior-services')
+
 
 const itemsRouter = express.Router()
 
