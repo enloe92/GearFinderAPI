@@ -100,7 +100,7 @@ const warriorServices = {
     // gear.weapon2 = weapon2
 
     // console.log(gear)
-    return helm;
+    return helm, neck, shoulder, cloak, chest, wrists, gloves, belt, legs, boots, ring1, ring2, weapon1, weapon2;
   },
   getFuryWarriorNeck(db) {
     // const gear = {};
