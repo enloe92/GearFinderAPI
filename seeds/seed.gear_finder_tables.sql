@@ -403,7 +403,7 @@ VALUES
 INSERT INTO arms_warrior (item_name, item_category, item_type, item_class, item_location, item_source, main_stat, primary_stat, secondary_stat, item_id)
 VALUES
   ('Diadem of Imperious Desire', 'Armor', 'Plate', 'Head', 'Castle Nathria', 'Sire Denathrius', 'Flex', 'Mastery', 'Haste', '182997'),
-  ('Nobles Birthstone Pendant', 'Armor', 'All', 'Back', 'Castle Nathria', 'The Council of Blood', 'Flex', 'Mastery', 'Critical Strike', '183039'),
+  ('Nobles Birthstone Pendant', 'Armor', 'All', 'Neck', 'Castle Nathria', 'The Council of Blood', 'Flex', 'Mastery', 'Critical Strike', '183039'),
   ('Epaulettes of Overwhelming Force', 'Armor', 'Plate', 'Shoulder', 'Castle Nathria', 'Hungering Destroyer', 'Flex', 'Critical Strike', 'Haste', '182994'),
   ('Crest of the Legionnaire General', 'Armor', 'All', 'Back', 'Castle Nathria', 'Stone Legion Generals', 'Flex', 'Haste', 'Versatility', '183032'),
   ('Breastplate of Cautious Calculation', 'Armor', 'Plate', 'Chest', 'Castle Nathria', 'Artificer Xymox', 'Flex', 'Mastery', 'Critical Strike', '182987'),
@@ -433,7 +433,52 @@ VALUES
   ('Zenith Anima Spherule', 'Weapon', 'All', 'All', 'Castle Nathria', 'Sire Denathrius', 'Flex', 'Flex', 'Flex', '183899'),
   ('Apogee Anima Bead', 'Weapon', 'All', 'All', 'Castle Nathria', 'Stone Legion Gernerals', 'Flex', 'Flex', 'Flex', '183895');
 
+INSERT INTO marksman_hunter (item_name, item_category, item_type, item_class, item_location, item_source, main_stat, primary_stat, secondary_stat, item_id)
+VALUES
+('Helm of Insatiable Appetite', 'Armor', 'Mail', 'Head', 'Castle Nathria', 'Hungering Destroyer', 'Flex', 'Haste', 'Mastery', '183001'),
+('Nobles Birthstone Pendant', 'Armor', 'All', 'Neck', 'Castle Nathria', 'The Council of Blood', 'Flex', 'Mastery', 'Critical Strike', '183039'),
+('Pauldrons of Fatal Finality', 'Armor', 'Mail', 'Shoulder', 'Castle Nathria', 'Sire Denathrius', 'Flex', 'Mastery', 'Versatility', '183003'),
+('Mantle of Manifest Sins', 'Armor', 'All', 'Back', 'Castle Nathria', 'Sun Kings Salvation', 'Flex', 'Critical Strike', 'Mastery', '183033'),
+('Master Huntsmans Bandolier', 'Armor', 'Mail', 'Chest', 'Castle Nathria', 'Huntsman Altimor', 'Flex', 'Mastery', 'Critical Strike', '182988'),
+('Bangles of Errant Pride', 'Armor', 'Mail', 'Wrist', 'Castle Nathria', 'Sun Kings Salvation', 'Flex', 'Critical Strike', 'Mastery', '182977'),
+('Oathsworn Soldiers Gauntlets', 'Armor', 'Mail', 'Hands', 'Castle Nathria', 'Stone Legion Generals', 'Flex', 'Critical Strike', 'Haste', '182991'),
+('Double-Chained Utility Belt', 'Armor', 'Mail', 'Waist', 'Castle Nathria', 'Shriekwing', 'Flex', 'Versatility', 'Mastery', '182976'),
+('Greaves of Enigmatic Energies', 'Armor', 'Mail', 'Legs', 'Castle Nathria', 'Artificer Xymox', 'Flex', 'Critical Strike', 'Mastery', '183012'),
+('Stoneclas Stompers', 'Armor', 'Mail', 'Feet', 'Castle Nathria', 'Sludgefist', 'Flex', 'Critical Strike', 'Mastery', '183006'),
+('Most Regal Signet of Sire Denathrius', 'Armor', 'All', 'Ring', 'Castle Nathria', 'Sire Denathrius', 'Flex', 'Haste', 'Mastery', '183036'),
+('Hyperlight Band', 'Armor', 'All', 'Ring', 'Castle Nathria', 'Artificer Xymox', 'Flex', 'Versatility', 'Mastery', '183038'),
+('Mystic Anima Spherule', 'Weapon', 'All', 'All', 'Castle Nathria', 'Sire Denathrius', 'Flex', 'Flex', 'Flex', '183897');
 
+INSERT INTO beast_mastery_hunter (item_name, item_category, item_type, item_class, item_location, item_source, main_stat, primary_stat, secondary_stat, item_id)
+VALUES
+('Helm of Insatiable Appetite', 'Armor', 'Mail', 'Head', 'Castle Nathria', 'Hungering Destroyer', 'Flex', 'Haste', 'Mastery', '183001'),
+('Charm of Eternal Winter', 'Armor', 'All', 'Neck', 'Castle Nathria', 'Huntsman Altimor', 'Flex', 'Mastery', 'Haste', '183040'),
+('Pauldrons of Fatal Finality', 'Armor', 'Mail', 'Shoulder', 'Castle Nathria', 'Sire Denathrius', 'Flex', 'Mastery', 'Versatility', '183003'),
+('Crest of the Legionnaire General', 'Armor', 'All', 'Back', 'Castle Nathria', 'Stone Legion Generals', 'Flex', 'Haste', 'Versatility', '183032'),
+('Consumptive Chainmail Carapace', 'Armor', 'Mail', 'Chest', 'Castle Nathria', 'Hungering Destroyer', 'Flex', 'Versatility', 'Haste', '183000'),
+('Bangles of Errant Pride', 'Armor', 'Mail', 'Wrist', 'Castle Nathria', 'Sun Kings Salvation', 'Flex', 'Critical Strike', 'Mastery', '182977'),
+('Oathsworn Soldiers Gauntlets', 'Armor', 'Mail', 'Hands', 'Castle Nathria', 'Stone Legion Generals', 'Flex', 'Critical Strike', 'Haste', '182991'),
+('Load-Bearing Belt', 'Armor', 'Mail', 'Waist', 'Castle Nathria', 'Sludgefist', 'Flex', 'Haste', 'Versatility', '183016'),
+('Memento-Laden Cuisses', 'Armor', 'Mail', 'Legs', 'Castle Nathria', 'Lady Inerva Darkvein', 'Flex', 'Haste', 'Versatility', '182985'),
+('Spatial Rift Striders', 'Armor', 'Mail', 'Feet', 'De Other Side', 'Dealer Xyexa', 'Flex', 'Haste', 'Critical Strike', '179345'),
+('Most Regal Signet of Sire Denathrius', 'Armor', 'All', 'Ring', 'Castle Nathria', 'Sire Denathrius', 'Flex', 'Haste', 'Mastery', '183036'),
+('Ritualists Treasured Ring', 'Armor', 'All', 'Ring', 'Castle Nathria', 'Lady Inerva Darkvein', 'Flex', 'Haste', 'Critical Strike', '183037'),
+('Mystic Anima Spherule', 'Weapon', 'All', 'All', 'Castle Nathria', 'Sire Denathrius', 'Flex', 'Flex', 'Flex', '183897');
 
+INSERT INTO beast_mastery_hunter (item_name, item_category, item_type, item_class, item_location, item_source, main_stat, primary_stat, secondary_stat, item_id)
+VALUES
+('Nathrian Usurpers Mask', 'Armor', 'Mail', 'Head', 'Halls of Atonement', 'Lord Chamberlain', 'Flex', 'Versatility', 'Haste', '178816'),
+('Sin Stained Pendant', 'Armor', 'All', 'Neck', 'Halls of Atonement', 'Halkias, the Sin-Stained Goliath', 'Flex', 'Haste', 'Mastery', '178827'),
+('Plagueborne Shoulderguards', 'Armor', 'Mail', 'Shoulder', 'Plaguefall', 'Margrave Stradama', 'Flex', 'Critical Strike', 'Versatility', '178764'),
+('Drape of Twisted Loyalties', 'Armor', 'All', 'Back', 'Spires of Ascension', 'Devos, Paragon of Doubt', 'Flex', 'Haste', 'Critical Strike', '180123'),
+('Harness of Twisted Whims', 'Armor', 'Mail', 'Chest', 'De Other Side', 'Muehzala', 'Flex', 'Haste','Critical Strike', '179353'),
+('Fallen Paragons Armguards', 'Armor', 'Mail', 'Wrist', 'Spires of Ascension', 'Devos, Paragon of Doubt', 'Flex', 'Haste', 'Versatility', '180114'),
+('Absonant Constructs Handguards', 'Armor', 'Mail', 'Hands', 'Spires of Ascension', 'Oryphrion', 'Flex', 'Versatility', 'Haste', '180105'),
+('Executors Prideful Girdle', 'Armor', 'Mail', 'Waist', 'Sanguine Depths', 'Executor Tarvold', 'Flex', 'Haste', 'Versatility', '178843'),
+('Lichbone Legguards', 'Armor', 'Mail', 'Legs', 'The Necrotic Wake', 'Nalthor the Rimebinder', 'Flex', 'Versatility', 'Haste', '178778'),
+('Spatial Rift Striders', 'Armor', 'Mail', 'Feet', 'De Other Side', 'Dealer Xyexa', 'Flex', 'Haste', 'Critical Strike', '179345'),
+('Stitchfleshs Misplaced Signet', 'Armor', 'All', 'Ring', 'The Necrotic Wake', 'Blightbone', 'Flex', 'Haste', 'Versatility', '178736'),
+('Bloodoath Signet', 'Armor', 'All', 'Ring', 'Theater of Pain', 'An Affront of Challengers', 'Flex', 'Haste', 'Critical Strike', '178871'),
+('Halberd of the Aranakk', 'Weapon', 'Polearm', 'Two-Hand', 'Plaguefall', 'Domina Venomblade', 'Agility', 'Haste', 'Critical Strike', '178929');
 
 COMMIT;
