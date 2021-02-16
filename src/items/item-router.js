@@ -51,6 +51,39 @@ itemsRouter
       .catch(next)
   })
 
+  itemsRouter
+  .route('/hunter/marksman')
+  .get((req, res, next) => {
+    const knexInstance = req.app.get('db');
+    ItemsService.getMarksmanHunter(knexInstance)
+      .then(items => {
+        res.json(items)
+      })
+      .catch(next)
+  })
+
+  itemsRouter
+  .route('/hunter/beastmastery')
+  .get((req, res, next) => {
+    const knexInstance = req.app.get('db');
+    ItemsService.getBeastMasteryHunter(knexInstance)
+      .then(items => {
+        res.json(items)
+      })
+      .catch(next)
+  })
+
+  itemsRouter
+  .route('/hunter/survival')
+  .get((req, res, next) => {
+    const knexInstance = req.app.get('db');
+    ItemsService.getSurvivalHunter(knexInstance)
+      .then(items => {
+        res.json(items)
+      })
+      .catch(next)
+  })
+
 
 
 module.exports = itemsRouter

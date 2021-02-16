@@ -51,6 +51,21 @@ const ItemsService = {
     return db
       .from('protection_warrior')
       .select('*')
+  },
+  getMarksmanHunter(db){
+    return db
+      .from('marksman_hunter')
+      .select('*')
+  },
+  getBeastMasteryHunter(db){
+    return db
+      .from('beast_mastery_hunter')
+      .select('*')
+  },
+  getSurvivalHunter(db){
+    return db
+      .from('survival_hunter')
+      .select('*')
   }
 }
 
