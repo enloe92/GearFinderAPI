@@ -465,7 +465,7 @@ VALUES
 ('Ritualists Treasured Ring', 'Armor', 'All', 'Ring', 'Castle Nathria', 'Lady Inerva Darkvein', 'Flex', 'Haste', 'Critical Strike', '183037'),
 ('Mystic Anima Spherule', 'Weapon', 'All', 'All', 'Castle Nathria', 'Sire Denathrius', 'Flex', 'Flex', 'Flex', '183897');
 
-INSERT INTO beast_mastery_hunter (item_name, item_category, item_type, item_class, item_location, item_source, main_stat, primary_stat, secondary_stat, item_id)
+INSERT INTO survival_hunter (item_name, item_category, item_type, item_class, item_location, item_source, main_stat, primary_stat, secondary_stat, item_id)
 VALUES
 ('Nathrian Usurpers Mask', 'Armor', 'Mail', 'Head', 'Halls of Atonement', 'Lord Chamberlain', 'Flex', 'Versatility', 'Haste', '178816'),
 ('Sin Stained Pendant', 'Armor', 'All', 'Neck', 'Halls of Atonement', 'Halkias, the Sin-Stained Goliath', 'Flex', 'Haste', 'Mastery', '178827'),
