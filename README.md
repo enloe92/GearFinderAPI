@@ -1,5 +1,7 @@
 # Gearfinder API
 
+This API is used for returning a gear listing from the most recent patch of World of Warcraft.
+
 # API Calls
 
 Return all items: /api/items
