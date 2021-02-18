@@ -1,4 +1,27 @@
-# Blogful API Auth!
+# Gearfinder API
+
+#
+
+Return all items
+/api/items
+
+Return best items for fury warrior
+/api/items/warrior/fury
+
+Return best items for arms warrior
+/api/items/warrior/arms
+
+Return best items for protection warrior
+/api/items/warrior/protection
+
+Return best items for marksman hunter
+/api/items/hunter/marksman
+
+Return best items for survival hunter
+/api/items/hunter/survival
+
+Return best items for beast mastery hunter
+/api/items/hunter/beastmastery
 
 ## Scripts
 
